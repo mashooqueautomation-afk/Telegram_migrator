@@ -1,0 +1,41 @@
+@'
+# Environment secrets
+.env
+.env.*
+!.env.example
+**/.env
+**/.env.*
+!**/.env.example
+
+# Python
+__pycache__/
+*.py[cod]
+.venv/
+venv/
+env/
+.pytest_cache/
+.mypy_cache/
+.ruff_cache/
+.coverage
+htmlcov/
+
+# Frontend dependencies and build output
+node_modules/
+dist/
+build/
+coverage/
+
+# Local databases, sessions and logs
+*.session
+*.session-journal
+*.sqlite
+*.sqlite3
+*.db
+*.log
+
+# Editor and operating-system files
+.vscode/
+.idea/
+.DS_Store
+Thumbs.db
+'@ | Add-Content -Path .gitignore

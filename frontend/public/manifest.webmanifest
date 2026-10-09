@@ -1,0 +1,12 @@
+{
+  "name": "Telegram Migrator",
+  "short_name": "TG Migrator",
+  "description": "Manage eligible Telegram channel invitations and migration jobs.",
+  "start_url": "/",
+  "display": "standalone",
+  "background_color": "#f4f7fb",
+  "theme_color": "#0e1c2e",
+  "icons": [
+    { "src": "/telegram-migrator.svg", "sizes": "any", "type": "image/svg+xml", "purpose": "any maskable" }
+  ]
+}
